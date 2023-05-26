@@ -106,7 +106,7 @@ const HomeScreen: React.FC<IProps> = _props => {
         <TouchableOpacity onPress={() => setPaging(paging + 1)}>
           <Image
             source={IMAGES.Group12}
-            style={{marginHorizontal: 25, marginTop: 40, marginBottom: 40}}
+            style={{marginHorizontal: 25, marginTop: 40, marginBottom: 110}}
             resizeMode="contain"
           />
         </TouchableOpacity>
@@ -115,7 +115,7 @@ const HomeScreen: React.FC<IProps> = _props => {
         <TouchableOpacity onPress={() => setPaging(paging + 1)}>
           <Image
             source={IMAGES.Group18}
-            style={{marginHorizontal: 25, marginTop: 40, marginBottom: 40}}
+            style={{marginHorizontal: 25, marginTop: 40, marginBottom: 100}}
             resizeMode="contain"
           />
         </TouchableOpacity>
@@ -124,7 +124,7 @@ const HomeScreen: React.FC<IProps> = _props => {
         <TouchableOpacity onPress={() => setPaging(paging + 1)}>
           <Image
             source={IMAGES.Group19}
-            style={{marginHorizontal: 25, marginTop: 40, marginBottom: 40}}
+            style={{marginHorizontal: 25, marginTop: 40, marginBottom: 100}}
             resizeMode="contain"
           />
         </TouchableOpacity>

@@ -39,11 +39,6 @@ export const tabBar = () => {
     );
   };
 
-  const linkChanelGithub = () => {
-    Linking.openURL(
-      'https://github.com/hoaphantn7604/react-native-template-components',
-    );
-  };
 
   return (
     <CurvedBottomBar.Navigator
@@ -60,7 +55,7 @@ export const tabBar = () => {
               flex: 1,
               justifyContent: 'center',
             }}
-            onPress={linkChanelGithub}>
+            >
             <Image
               source={IMAGES.mic}
               style={{width: 65}}
@@ -79,7 +74,7 @@ export const tabBar = () => {
       <CurvedBottomBar.Screen
         options={{headerShown: false}}
         name="title2"
-        component={() => <SettingScreen />}
+        component={() => <HomeScreen />}
         position="RIGHT"
       />
     </CurvedBottomBar.Navigator>
